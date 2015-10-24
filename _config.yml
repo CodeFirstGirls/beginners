@@ -2,7 +2,7 @@
 title: Code First:Girls Web Development Courses
 email: diana@diana.click
 description: Learn Web Development
-baseurl: "/cfg" # the subpath of your site, e.g. /blog/
+baseurl: "/CFG" # the subpath of your site, e.g. /blog/
 url: "http://diana.click" # the base hostname & protocol for your site
 
 #social media 
