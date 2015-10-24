@@ -1,0 +1,48 @@
+# Site settings
+title: Code First:Girls Web Development Courses
+email: diana@diana.click
+description: Learn Web Development
+baseurl: "/cfg" # the subpath of your site, e.g. /blog/
+url: "http://diana.click" # the base hostname & protocol for your site
+
+#social media 
+
+twitter_username: duhrtyd
+github_username:  parisandmilo
+facebook_username: dklhy
+linkedin_url: https://uk.linkedin.com/in/dianaklee
+
+# Build settings
+highlighter: rougify
+markdown: kramdown
+
+# Collections
+
+collections:
+  beginners:
+    output: true
+  ruby:
+    output: true
+  python:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: beginners
+    values:
+      layout: lesson
+  -
+    scope:
+      path: ""
+      type: ruby
+    values:
+      layout: lesson
+  -
+    scope:
+      path: ""
+      type: python
+    values:
+      layout: lesson
+        
