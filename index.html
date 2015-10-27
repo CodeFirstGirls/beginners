@@ -4,6 +4,44 @@ layout: default
 
 <div class="home">
 
+  <h1 class="page-heading">Beginners</h1>
+
+  <ul class="post-list">
+    {% for beginner in site.beginners %}
+    <li>
+        <h2>
+          <a class="post-link" href="{{ beginner.url | prepend: site.baseurl }}">{{ beginner.title }}</a>
+        </h2>
+    {% endfor %}
+    </li>
+  </ul>
+
+  <h1 class="page-heading">Advanced - Python</h1>
+
+  <ul class="post-list">
+    {% for python in site.python %}
+    <li>
+        <h2>
+          <a class="post-link" href="{{ python.url | prepend: site.baseurl }}">{{ python.title }}</a>
+        </h2>
+    {% endfor %}
+    </li>
+  </ul>
+
+  <h1 class="page-heading">Advanced - Ruby</h1>
+  <ul class="post-list">
+    {% for ruby in site.ruby %}
+    <li>
+        <h2>
+          <a class="post-link" href="{{ ruby.url | prepend: site.baseurl }}">{{ ruby.title }}</a>
+        </h2>
+    {% endfor %}
+    </li>
+  </ul>
+
+
+  <hr>
+
   <h1 class="page-heading">Posts</h1>
 
   <ul class="post-list">
