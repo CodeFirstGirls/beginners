@@ -11,7 +11,7 @@ All contributions should be made on the `gh-pages` branch to be live.
 
 You need: 
 - [Jekyll](http://jekyllrb.com/docs/home/)
-- A basic understanding of [Liquid](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers)
+- A basic understanding of [Liquid](https://github.com/Shopify/liquid/wiki)
 
 In particular, please look at Jekyll Collections:
 - [Official Docs](http://jekyllrb.com/docs/collections/)
