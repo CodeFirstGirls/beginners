@@ -1,0 +1,17 @@
+---
+layout: page
+title: Advanced (Ruby)
+permalink: /Ruby/
+navigation: true
+---
+
+<h1 class="page-heading">Advanced Web Development in Ruby</h1>
+  <ul class="post-list">
+    {% for ruby in site.ruby %}
+    <li>
+        <h2>
+          <a class="post-link" href="{{ ruby.url | prepend: site.baseurl }}">{{ ruby.title }}</a>
+        </h2>
+    {% endfor %}
+    </li>
+  </ul>

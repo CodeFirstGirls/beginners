@@ -1,0 +1,18 @@
+---
+layout: page
+title: Advanced (Python)
+permalink: /python/
+navigation: true
+---
+
+<h1 class="page-heading">Advanced Web Development in Python</h1>
+
+  <ul class="post-list">
+    {% for python in site.python %}
+    <li>
+        <h2>
+          <a class="post-link" href="{{ python.url | prepend: site.baseurl }}">{{ python.title }}</a>
+        </h2>
+    {% endfor %}
+    </li>
+  </ul>
