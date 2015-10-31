@@ -1,0 +1,19 @@
+---
+layout: page
+title: Beginners
+permalink: /beginners/
+navigation: true
+---
+
+<h1 class="page-heading">Beginners Web Development Course</h1>
+
+<h2>Content</h2>
+  <ul class="post-list">
+    {% for beginner in site.beginners %}
+    <li>
+        <h2>
+          <a class="post-link" href="{{ beginner.url | prepend: site.baseurl }}">{{ beginner.title }}</a>
+        </h2>
+    {% endfor %}
+    </li>
+  </ul>
